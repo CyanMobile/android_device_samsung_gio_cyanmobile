@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcamera.so:obj/lib/libcamera.so
     
 PRODUCT_COPY_FILES += \
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/gps.msm7k.so:system/lib/hw/gps.gio.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/gps.gio.so:system/lib/hw/gps.gio.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors.default.so:system/lib/hw/sensors.default.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \\
